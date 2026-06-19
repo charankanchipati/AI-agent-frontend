@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI Event Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            AI Event Planner 🤖
+        </div>
+
+       <div id="chatBox" class="chat-box"></div>
+
+
+<div class="category-box">
+
+<button onclick="selectEvent('Birthday Party')">
+🎂 Birthday
+</button>
+
+
+<button onclick="selectEvent('Wedding')">
+💍 Wedding
+</button>
+
+
+<button onclick="selectEvent('Corporate Event')">
+🏢 Corporate
+</button>
+
+
+<button onclick="selectEvent('College Event')">
+🎓 College Event
+</button>
+
+</div>
+
+       <div class="input-area">
+
+<input
+id="messageInput"
+placeholder="Type your event details">
+
+<button onclick="sendMessage()">
+Send
+</button>
+
+<button onclick="clearChat()">
+Clear
+</button>
+
+<button onclick="downloadPlan()">
+📥 Download Plan
+</button>
+
+</div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

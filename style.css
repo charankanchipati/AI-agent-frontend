@@ -1,0 +1,179 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:20px auto;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.header{
+    background:#007bff;
+    color:white;
+    padding:15px;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.chat-box{
+    height:500px;
+    overflow-y:auto;
+    padding:20px;
+}
+
+.user{
+    background:#007bff;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    margin:10px 0;
+    width:fit-content;
+    margin-left:auto;
+    max-width:70%;
+}
+
+.bot{
+    background:#e9ecef;
+    padding:10px;
+    border-radius:10px;
+    margin:10px 0;
+    max-width:70%;
+    white-space:pre-wrap;
+}
+
+.input-area{
+    display:flex;
+    border-top:1px solid #ddd;
+}
+
+input{
+    flex:1;
+    padding:15px;
+    border:none;
+    outline:none;
+}
+
+button{
+    padding:15px 25px;
+    border:none;
+    background:#007bff;
+    color:white;
+    cursor:pointer;
+}
+#typing{
+    font-style: italic;
+    opacity: 0.8;
+}
+button{
+    padding:10px;
+    margin-left:5px;
+    border:none;
+    border-radius:5px;
+    background:#007bff;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.8;
+}   
+.message{
+
+    display:flex;
+
+    gap:10px;
+
+    margin:15px 0;
+
+    align-items:flex-start;
+}
+
+
+.avatar{
+
+    font-size:25px;
+
+}
+
+
+.message-text{
+
+    padding:12px;
+
+    border-radius:12px;
+
+    max-width:70%;
+
+    white-space:pre-wrap;
+
+}
+
+
+.user{
+
+    flex-direction:row-reverse;
+
+}
+
+
+.user .message-text{
+
+    background:#007bff;
+
+    color:white;
+
+}
+
+
+.bot .message-text{
+
+    background:#e9ecef;
+
+    color:black;
+
+}
+.category-box{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+    padding:15px;
+
+    justify-content:center;
+
+}
+
+
+.category-box button{
+
+    background:#007bff;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 18px;
+
+    border-radius:20px;
+
+    cursor:pointer;
+
+}
+
+
+.category-box button:hover{
+
+    opacity:0.8;
+
+}
